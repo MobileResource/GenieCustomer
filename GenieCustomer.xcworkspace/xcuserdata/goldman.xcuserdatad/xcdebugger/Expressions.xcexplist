@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[QuestionViewController setQuestionAndAnswers]:QuestionViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.question_title">
+            </PersistentString>
+            <PersistentString
+               value = "self.isMultiSelect">
+            </PersistentString>
+            <PersistentString
+               value = "self.isOptional">
+            </PersistentString>
+            <PersistentString
+               value = "self.current_question">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

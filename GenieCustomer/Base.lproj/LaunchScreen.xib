@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="Kp8-2a-dNI">
+                    <rect key="frame" x="52" y="83" width="216" height="216"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="216" id="2AM-c5-lw0"/>
+                        <constraint firstAttribute="width" constant="216" id="7ls-i3-FV3"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="216" id="IK0-S5-J7k"/>
+                        <constraint firstAttribute="height" constant="216" id="eIv-FG-GSV"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yxr-32-j0O">
+                    <rect key="frame" x="0.0" y="282" width="320" height="4"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="4" id="t8h-XN-kw6"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright (c) 2015 genie. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="kUP-qR-dt4">
+                    <rect key="frame" x="57" y="501" width="207" height="59"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="207" id="3nn-t6-vEe"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="59" id="6Da-ys-XQz"/>
+                        <constraint firstAttribute="width" constant="207" id="6XD-Sc-56a"/>
+                        <constraint firstAttribute="height" constant="59" id="Nph-EN-kUj"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                    <color key="textColor" red="0.91372549020000005" green="0.12941176469999999" blue="0.2784313725" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="kUP-qR-dt4" secondAttribute="bottom" constant="8" id="Fbn-9K-ept"/>
+                <constraint firstAttribute="trailing" secondItem="Yxr-32-j0O" secondAttribute="trailing" id="H6d-78-hwf"/>
+                <constraint firstAttribute="centerX" secondItem="kUP-qR-dt4" secondAttribute="centerX" constant="-0.5" id="HpV-L9-47R"/>
+                <constraint firstItem="Yxr-32-j0O" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Yo4-rb-BrD"/>
+                <constraint firstAttribute="centerY" secondItem="Yxr-32-j0O" secondAttribute="centerY" id="ZXd-Bg-hbo"/>
+                <constraint firstItem="Yxr-32-j0O" firstAttribute="top" secondItem="Kp8-2a-dNI" secondAttribute="bottom" constant="-17" id="cyF-ix-G6k"/>
+                <constraint firstAttribute="centerX" secondItem="Kp8-2a-dNI" secondAttribute="centerX" id="e7V-8l-CLV"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <point key="canvasLocation" x="447" y="374"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="logo.png" width="200" height="199"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

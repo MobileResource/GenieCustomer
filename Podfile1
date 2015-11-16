@@ -1,0 +1,18 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '6.0'
+
+target 'GenieCustomer' do
+pod 'ECSlidingViewController', '~>2.0.3'
+pod 'MBProgressHUD', '~>0.8'
+pod 'AFNetworking', '~>2.0'
+pod 'GCJSONKit', '~>1.5.0'
+pod 'GVUserDefaults'
+pod 'IQKeyboardManager'
+pod 'SDWebImage','~>3.7'
+pod 'EDStarRating'
+end
+
+target 'GenieCustomerTests' do
+
+end
+
